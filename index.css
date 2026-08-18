@@ -1,0 +1,55 @@
+body{
+    background-image: url("../images/station.jpg");
+    background-size: cover;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    text-align: center;
+}
+#text{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px black;
+    font-size: 40;
+}
+#count-el{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px black;
+    font-size: 90;
+}
+#increment{
+    padding :3px 12px;
+    background-color:rgb(176, 6, 6);
+    color:white;
+    width:400px;
+    height:50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 0px 7px black;
+    font-size: 25;
+    margin-bottom: 15px;
+}
+#save-btn{
+    padding :3px 12px;
+    background-color:rgb(51, 158, 6);
+    color:white;
+    width:400px;
+    height:50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 0px 7px black;
+    font-size: 25;
+}
+#save-el{
+   color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 7px black;
+    font-size: 40; 
+}
